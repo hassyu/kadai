@@ -1,7 +1,7 @@
 <pre>
 <?php
-	include ('html/header.html');
-	include ('html/list.html');
+	include ('header.html');
+	include ('list.html');
 	$fname="count.txt";
 	$fp=fopen($fname,"r+");
 	fscanf($fp,"%d",$n);
